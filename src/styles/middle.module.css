@@ -1,0 +1,133 @@
+.middleMain{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    height: 100vh;
+}
+.middleHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3vh;
+}
+.middleHeader > p{
+    color: white;
+    font-family: Roboto;
+    cursor: pointer;
+}
+.middleHeader > input{
+    background-color: #300000;
+    border-radius: 30px;
+    border: none;
+    width: 20vw;
+    height: 5vh;
+    text-indent: 1.5vw;
+    outline: none;
+    color: white;
+    font-family: Roboto;
+}
+.middleCreatorImage{
+    height: 32vh;
+    margin-left: 3vw;
+    margin-right: 4vw;
+    overflow: hidden;
+    margin-top: 6vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+.middleCreatorImageVerified{
+    margin-top: 6vh;
+    display: flex;
+    align-items: center;
+    margin-left: 3vw;
+}
+.middleCreatorImageVerified > p{
+    color: #CFC5C5;
+    font-family: Roboto;
+    font-size: 12px;
+    margin-left: 1vw;
+}
+.middleCreatorImageArtistName{
+    color: white;
+    font-family: Roboto;
+    margin-left: 3vw;
+    font-size: 35px;
+    margin-top: 1.5vh;
+    font-weight: 500;
+}
+.middleCreatorImageListeners{
+    color: white;
+    font-family: Roboto;
+    margin-left: 3vw;
+}
+.middleSongs{
+    margin-left: 3vw;
+    margin-right: 4vw;
+    margin-bottom: 1vh;
+    font-family: Roboto;
+}
+.middleSongsHeader{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.middleSongsTitle{
+    display: flex;
+    color: #CFC5C5;
+}
+.middleSongsTitle > p{
+    margin-top: 10px;
+}
+.middleSongsTitleTitleText{
+    margin-left: 8vw;
+}
+.middleSongsTitlePlayingText{
+    margin-left: 11vw;
+}
+.middleSongsTitleTimeText{
+    margin-left: 6vw;
+}
+.middleSongsTitleAlbumText{
+    margin-left: 7.5vw;
+}
+.middleSongsList{
+    font-family: Roboto;
+    color: white;
+    margin-top: 10px;
+    height: 35vh;
+    overflow-y: scroll;
+    width: 100%;
+}
+.middleSongItem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .middleSongTitleWrapper {
+    display: flex;
+    align-items: center;
+    width: 8vw;
+    margin-left: 0px;
+  }
+  .middleSongArtist{
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .middleSongThumbnail {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  .middleSongTitle {
+    font-size: 16px;
+    font-weight: bold;
+  }

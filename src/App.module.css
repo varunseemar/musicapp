@@ -1,0 +1,15 @@
+.sidebar{
+    width: 24vw;
+    background-color: black;
+}
+.playcard{
+    width: 22vw;
+    background: linear-gradient(to bottom, #300000, #2e0000, #090c0e);
+}
+.middle{
+    width: 54vw;
+    background: linear-gradient(to bottom, #480303, #400000, #090c0e);
+}
+.main{
+    display: flex;
+}

@@ -1,0 +1,70 @@
+.sidebarMain{
+    height: 100vh;
+    width: 100%;
+}
+.sidebarMainTop{
+    display: flex;
+    font-size: 38px;
+    font-family: Roboto;
+    font-weight: 600;
+    align-items: center;
+    padding-top: 3vh;
+    padding-left: 2vw;
+}
+.sidebarMainTopDream{
+    color: #FF5656;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1vw;
+}
+.sidebarMainTopMusic{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sidebarMainMiddleMenu{
+    color: #CFC5C5;
+    font-family: Roboto;
+    margin-top: 10vh;
+    margin-left: 2.5vw;
+    font-size: 12px;
+}
+.sidebarMainMiddleHome , .sidebarMainMiddleTrends, .sidebarMainMiddleLibrary, .sidebarMainMiddleDiscover{
+    display: flex;
+    align-items: center;
+    margin-left: 2.5vw;
+}
+.sidebarMainMiddleHomeText ,.sidebarMainMiddleTrendsText, .sidebarMainMiddleLibraryText, .sidebarMainMiddleDiscoverText{
+    color: white;
+    font-family: Roboto;
+    margin-left: 1.5vw;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+.sidebarMainMiddleLibraryText{
+    margin-left: 1.7vw;
+}
+.sidebarMainBottomGeneral{
+    color: #CFC5C5;
+    font-family: Roboto;
+    margin-top: 20vh;
+    margin-left: 2.5vw;
+    font-size: 12px;
+}
+.sidebarMainBottomSettings,.sidebarMainBottomLogout{
+    display: flex;
+    align-items: center;
+    margin-left: 2.5vw;
+}
+.sidebarMainBottomSettingsText,.sidebarMainBottomLogoutText{
+    color: white;
+    font-family: Roboto;
+    margin-left: 1.5vw;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+.sidebarMainBottomLogout{
+    margin-left: 2.7vw;
+}
